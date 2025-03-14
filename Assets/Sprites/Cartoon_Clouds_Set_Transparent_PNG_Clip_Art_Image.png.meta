@@ -108,18 +108,128 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3162
+        width: 4075
+        height: 2273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cde14a0e792144d9e6135bda078157
+      internalID: 1460276415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_1
+      rect:
+        serializedVersion: 2
+        x: 4811
+        y: 3250
+        width: 3054
+        height: 1490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da26063e115a6804b889bfbdfcf633a6
+      internalID: 904825880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1213
+        width: 3062
+        height: 1085
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c8a4692a211ec4c89b6084dc6444a0
+      internalID: 1349126071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_3
+      rect:
+        serializedVersion: 2
+        x: 5018
+        y: 1365
+        width: 2535
+        height: 1160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a907343f4c5864281a46e8d97b691f
+      internalID: 1558991976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_4
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 186
+        width: 2515
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adceda4c731595c43be7b582a7aa6789
+      internalID: 447374800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1c0a14278b5056344af4b0afc1fad49c
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_0: 1460276415
+      Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_1: 904825880
+      Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_2: 1349126071
+      Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_3: 1558991976
+      Cartoon_Clouds_Set_Transparent_PNG_Clip_Art_Image_4: 447374800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
