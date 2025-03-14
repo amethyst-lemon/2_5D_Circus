@@ -1,0 +1,1575 @@
+fileFormatVersion: 2
+guid: b9bbadeb4aa0e3445996197013fc07fe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GUI - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1617
+        width: 87
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5632ae8a7ec74440a9d3128fe4ccbc7
+      internalID: -401455961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1626
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e285b5177dbc7043ba8048e50cc7e62
+      internalID: -289496901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1630
+        width: 73
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e731f3d06ab6b941b3e8b1c6a41743c
+      internalID: 1590629488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1628
+        width: 79
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dc8deebb5a9ee4995c735520bd34c4
+      internalID: -1904921143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1523
+        width: 157
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff051bfea7f26845bf8e164ccac5cbb
+      internalID: -1719475261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1523
+        width: 157
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94711e0ea4dddc24296913897a7eb7b0
+      internalID: 1272780490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1523
+        width: 157
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d06d6e74be32e946a51d0879527d7e1
+      internalID: 158506131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_buttonr1
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1549
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13634e94c94a32a4da21a9e16b486a39
+      internalID: -1733650826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_buttonr2
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1549
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a19de2b1ee0a4bb0f5984aac97dbf
+      internalID: 426033514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1613
+        width: 406
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335e22d11db6544ba25dc03eb4e7217
+      internalID: 1794648921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_button3
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1613
+        width: 392
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7307297f448d546b3c2db4e03f705b
+      internalID: 714047695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_button1
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1613
+        width: 392
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de796c2bbebe6d142bc8b3698f432a98
+      internalID: 608162640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 1672
+        width: 257
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6e879f945c8a2499767b13916651d0
+      internalID: -754559091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 1605
+        width: 257
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12002aced37083c4bab4b730534ae27b
+      internalID: 535981450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1522
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bbe5bd9e5daee47b3cc12641bebecd
+      internalID: 1132325310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1522
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4c07f2c3968994ba432b47682b17b9
+      internalID: -850352837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1516
+        width: 279
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab2181837424c74dac7b62b493c46f1
+      internalID: -1751940639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1469
+        width: 393
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eec14ccd732c9d4496788ecfa08fd25
+      internalID: 1723038145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1469
+        width: 392
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1d6f5974a3eae458222de9da4f82b6
+      internalID: -258791885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1536
+        width: 314
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ee245d8df6532488caf46e64b07d99
+      internalID: 1129802921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1340
+        width: 175
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c9c54a8f8911945a8aeaf4d550c0c1
+      internalID: -597932601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1332
+        width: 176
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddf3301693ed5b4c8b7af68d00d601a
+      internalID: 1382811233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1327
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d326e8d5956d04d4eaa8ff1fe06593e5
+      internalID: -1652576872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1480
+        width: 314
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881df0f655c9d5d4a9b4be14447b11bc
+      internalID: 1874698595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_background
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 537
+        width: 1390
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b50d8adb2c9f34aa730c04c66a1ab0
+      internalID: 1435282846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_button2
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1322
+        width: 392
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490ce10b1278c0e4085331ddfebe714f
+      internalID: -879470206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_buttonr3
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1266
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba825e1ed4afda44a7bed5ecfb1561c
+      internalID: 1805603486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1130
+        width: 180
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f613f2084abbc7541a09cb56140fe9f7
+      internalID: -1359363341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1130
+        width: 182
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5440d5dddcf7a744b811fc5bdc5abd7
+      internalID: 272706625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1131
+        width: 147
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4bd7582bd5c88479e05807957af2bd
+      internalID: 940163879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_start
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1186
+        width: 300
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b05410fe3d1ee247abcfe181fb1c5ec
+      internalID: -503393105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 994
+        width: 97
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05faebb7827ac544e9a2277ac4c4d88c
+      internalID: -1580225342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 989
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50607e4531c889d42991a25f43d35308
+      internalID: 470266092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 989
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10144b5ab9564954e8b0e40152b76a32
+      internalID: 246221429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 993
+        width: 125
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5feb5a7de073e2141aa125f7ab727865
+      internalID: 972421904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_exit
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 1066
+        width: 201
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cb37d405ad0af45a055f56931d1b78
+      internalID: -972830051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 838
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177278dc8035570488d07f40c7b85c05
+      internalID: 1440635801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 840
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeb4b9309c5fea42b0013afba13b55d
+      internalID: -1609176717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 841
+        width: 119
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33d41acbbc941243bd0a4bcaf04b21b
+      internalID: 1808638223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 845
+        width: 105
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634573029fd49b4438012fe9d3a34107
+      internalID: -1665138299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 673
+        width: 128
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0d116aab6c78a4caa9cfe887d05202
+      internalID: -208089450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 683
+        width: 114
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734b863fcca5fb248ae4b7665185e3d8
+      internalID: 2008846018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 688
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2035fc2c09533544683823c712def9d4
+      internalID: 1028322197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 677
+        width: 44
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e269caf39b033df4d85bf0d6adb9a035
+      internalID: 1664540300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 533
+        width: 68
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c9ea0ee43a4f14f8c7861ec83c9842
+      internalID: -584191131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_58
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 524
+        width: 92
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9422339977d6eb44497a3e14d1223fcc
+      internalID: -559819669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_59
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 534
+        width: 125
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30a0c1f5a9b70049834a2534a9e03eb
+      internalID: -1512692081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_62
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 525
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499bc6c1c750e924c888745dceb98829
+      internalID: -519195160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_63
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 392
+        width: 263
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f40a6cd5bbca04c8465bd5f5e94e04
+      internalID: 1281683883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_64
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 392
+        width: 263
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fa0365eb3f0be4bb2f30c70728dcb4
+      internalID: -1031213498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_66
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 363
+        width: 84
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab83b04fe570e8f41852e69899e9a078
+      internalID: -1904864896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_67
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 373
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95978301f1bd8a64c94e75cbb5734ec9
+      internalID: 1398517805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 372
+        width: 133
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25185591614a1149b5a4701c9eb8488
+      internalID: 860843610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_69
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 364
+        width: 69
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f95748ecf6343c47895b3aedaaaa159
+      internalID: 1969827255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_70
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 161
+        width: 1294
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad7abf2c3bcf7044b6e48747d7e6062
+      internalID: -186318639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_71
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 184
+        width: 674
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5ce8660e3a7334c956994cfc5c951f
+      internalID: 485939705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 225
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08212a9d281f4194582189ce200e5290
+      internalID: 1312698513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_73
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 252
+        width: 93
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18eff2149764cb459d1b4019ca057c4
+      internalID: 1044159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_74
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 230
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045951f62027e5540a388cfc11062529
+      internalID: 1482403491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_75
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 229
+        width: 112
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c722d98eff4f9e04886e8d0a16c9e7e8
+      internalID: -707598990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_77
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 89
+        width: 37
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91950a8d6d6ffa348af1e5d284dd025f
+      internalID: -296823909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_78
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 78
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e909004c373fb3428b71408b760a535
+      internalID: 2004768743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_79
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 78
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce36cef8ae31ea4f95f61fc10f08696
+      internalID: -1785060561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_80
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 79
+        width: 96
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17187738859a92c4aac77a68f753af53
+      internalID: -669279376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI - Copy_81
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 14
+        width: 673
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512b4c88ea919524a819c2d82f6697a9
+      internalID: 307284887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5fab1f10a2bb5f14d9b656bcc2d88c5f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GUI - Copy_0: -401455961
+      GUI - Copy_1: -289496901
+      GUI - Copy_12: -754559091
+      GUI - Copy_13: 535981450
+      GUI - Copy_14: 1132325310
+      GUI - Copy_15: -850352837
+      GUI - Copy_16: -1751940639
+      GUI - Copy_17: 1066336675
+      GUI - Copy_18: -15030071
+      GUI - Copy_19: 1723038145
+      GUI - Copy_2: 1590629488
+      GUI - Copy_20: -258791885
+      GUI - Copy_21: 1129802921
+      GUI - Copy_22: -597932601
+      GUI - Copy_23: 1382811233
+      GUI - Copy_24: -1652576872
+      GUI - Copy_25: 1874698595
+      GUI - Copy_29: -1359363341
+      GUI - Copy_3: -1904921143
+      GUI - Copy_30: 272706625
+      GUI - Copy_31: 940163879
+      GUI - Copy_32: 607121430
+      GUI - Copy_33: -881727285
+      GUI - Copy_35: -1580225342
+      GUI - Copy_36: 470266092
+      GUI - Copy_37: 246221429
+      GUI - Copy_38: 972421904
+      GUI - Copy_4: -1719475261
+      GUI - Copy_40: 1440635801
+      GUI - Copy_41: -459781506
+      GUI - Copy_42: -1609176717
+      GUI - Copy_43: 1808638223
+      GUI - Copy_44: -1665138299
+      GUI - Copy_45: 1225286999
+      GUI - Copy_46: 1931259852
+      GUI - Copy_47: -2099262960
+      GUI - Copy_48: -219893629
+      GUI - Copy_49: -337690966
+      GUI - Copy_5: 1272780490
+      GUI - Copy_50: 172382286
+      GUI - Copy_51: -208089450
+      GUI - Copy_52: 2008846018
+      GUI - Copy_53: 1028322197
+      GUI - Copy_54: 1664540300
+      GUI - Copy_55: 1612023630
+      GUI - Copy_56: 289209578
+      GUI - Copy_57: -584191131
+      GUI - Copy_58: -559819669
+      GUI - Copy_59: -1512692081
+      GUI - Copy_6: 158506131
+      GUI - Copy_60: -1179563051
+      GUI - Copy_61: -1159024609
+      GUI - Copy_62: -519195160
+      GUI - Copy_63: 1281683883
+      GUI - Copy_64: -1031213498
+      GUI - Copy_65: -1841102933
+      GUI - Copy_66: -1904864896
+      GUI - Copy_67: 1398517805
+      GUI - Copy_68: 860843610
+      GUI - Copy_69: 1969827255
+      GUI - Copy_70: -186318639
+      GUI - Copy_71: 485939705
+      GUI - Copy_72: 1312698513
+      GUI - Copy_73: 1044159
+      GUI - Copy_74: 1482403491
+      GUI - Copy_75: -707598990
+      GUI - Copy_76: -1335246840
+      GUI - Copy_77: -296823909
+      GUI - Copy_78: 2004768743
+      GUI - Copy_79: -1785060561
+      GUI - Copy_80: -669279376
+      GUI - Copy_81: 307284887
+      GUI - Copy_82: 1847984680
+      GUI - Copy_9: 1794648921
+      GUI_background: 1435282846
+      GUI_button1: 608162640
+      GUI_button2: -879470206
+      GUI_button3: 714047695
+      GUI_buttonr1: -1733650826
+      GUI_buttonr2: 426033514
+      GUI_buttonr3: 1805603486
+      GUI_exit: -972830051
+      GUI_start: -503393105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
