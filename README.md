@@ -10,9 +10,16 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 - [X] Learn about player prefs and saving in json
 - [ ] Write script for dice rolling
 - [X] Add background cloud animation
-- [ ] Create Settings
-- [ ] Create Leaderboard
-- [ ] Create Pause
+- [XS] Create Settings
+- [ ] Settings functional buttons
+- [ ] Settings music volume change
+- [ ] Settings sound effects volume change
+- [ ] Settings resolution change
+- [X] Create Leaderboard
+- [ ] Leaderboards functional buttons
+- [ ] Leaderboard display functionality
+- [X] Create Pause
+- [ ] Pause functional buttons
 - [X] Add 7 characters to choose from
 - [X] Add idel animations to charaters
 - [ ] Add walking animations to charaters
