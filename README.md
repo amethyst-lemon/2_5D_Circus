@@ -21,7 +21,9 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 - [X] Create Pause
 - [ ] Pause functional buttons
 - [X] Add 7 characters to choose from
-- [X] Add idel animations to charaters
+- [X] Add idle animations to charaters
+- [X] Add idle animations to charaters (level 1 screen)
 - [ ] Add walking animations to charaters
+
 - // Continue to write to do list when you start development on your own
 
