@@ -8,7 +8,6 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 - [X] Add animated characters and prefabs
 - [X] Create character selection screen
 - [X] Learn about player prefs and saving in json
-- [ ] Write script for dice rolling
 - [X] Add background cloud animation
 - [X] Create Settings
 - [ ] Settings functional buttons
@@ -23,7 +22,8 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 - [X] Add 7 characters to choose from
 - [X] Add idle animations to charaters
 - [X] Add idle animations to charaters (level 1 screen)
-- [ ] Add walking animations to charaters
+- [X] Add walking animations to charaters
+- [ ] Game logic
 
 - // Continue to write to do list when you start development on your own
 
