@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class RolledNumberScript : MonoBehaviour
 {
-    DiceRollScript diceRollScript;
+    public DiceRollScript diceRollScript;
     [SerializeField]
     Text rolledNmberText;
 
-    void Awake()
+    public void Awake()
     {
         diceRollScript = FindObjectOfType<DiceRollScript>();
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         if (diceRollScript != null)
             if (diceRollScript.isLanded)

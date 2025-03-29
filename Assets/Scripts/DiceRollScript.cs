@@ -18,7 +18,7 @@ public class DiceRollScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         if(rBody != null)
         {
@@ -55,7 +55,7 @@ public class DiceRollScript : MonoBehaviour
         transform.rotation = new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), 0);
     }
 
-    private void RollDice()
+    public void RollDice()
     {
         rBody.isKinematic = false;
         forceX = Random.Range(0, maxRandForceVal);
