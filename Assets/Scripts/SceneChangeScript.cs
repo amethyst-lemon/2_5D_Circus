@@ -21,10 +21,10 @@ public class SceneChangeScript : MonoBehaviour
             PlayerPrefs.DeleteAll();
 
             // comment out
-            if (UnityEditor.EditorApplication.isPlaying)
-                UnityEditor.EditorApplication.isPlaying = false;
+           // if (UnityEditor.EditorApplication.isPlaying)
+           //     UnityEditor.EditorApplication.isPlaying = false;
 
-            else // comment out
+           // else // comment out
                 Application.Quit();
         } else if (string.Equals(command, "play", System.StringComparison.OrdinalIgnoreCase))
         {

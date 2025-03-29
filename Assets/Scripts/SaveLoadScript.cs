@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using static UnityEditor.PlayerSettings;
+//using static UnityEditor.PlayerSettings;
 using UnityEngine.TextCore.Text;
 
 public class SaveLoadScript : MonoBehaviour
