@@ -11,10 +11,24 @@ public class PlayerScript : MonoBehaviour
     int[] otherPlayers;
     int index;
     private const string txtFileName = "playerNames";
+    public GridSpawnScript gridSpawnScript;
 
     void Start()
     {
-        characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
+        if(gridSpawnScript == null)
+        {
+            gridSpawnScript = FindAnyObjectByType<GridSpawnScript>();
+        }
+
+        if(gridSpawnScript != null)
+        {
+            gridSpawnScript.GetGridArray();
+        } else
+        {
+            Debug.LogError("GridSpawnScript not found");
+        }
+
+            characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         GameObject mainCharacter = Instantiate(playerPrefabs[characterIndex], spawnPoint.transform.position, Quaternion.identity);
         mainCharacter.GetComponent<NameScript>().SetPlayerName(PlayerPrefs.GetString("PlayerName"));
 
