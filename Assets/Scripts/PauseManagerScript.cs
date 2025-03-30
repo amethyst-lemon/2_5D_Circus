@@ -5,24 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class PauseManagerScript : MonoBehaviour
 {
-    public GameObject pauseMenuUI; // UI to show/hide during pause
-    public bool isPaused = false; // Boolean to track pause state
+    public GameObject pauseMenuUI;
+    public bool isPaused = false;
 
     private void Awake()
     {
-        // Ensures there is only one instance of PauseManager in the game
         if (FindObjectsOfType<PauseManagerScript>().Length > 1)
         {
             Destroy(gameObject);
             return;
         }
 
-        DontDestroyOnLoad(gameObject); // Persist across scenes
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Update()
     {
-        // Check for the pause input (e.g., Escape key)
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
@@ -34,15 +32,15 @@ public class PauseManagerScript : MonoBehaviour
 
     public void Pause()
     {
-        pauseMenuUI.SetActive(true); // Show the pause menu
-        Time.timeScale = 0f; // Pause the game (stop time)
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
         isPaused = true;
     }
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false); // Hide the pause menu
-        Time.timeScale = 1f; // Resume the game (restore time)
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
         isPaused = false;
     }
 
