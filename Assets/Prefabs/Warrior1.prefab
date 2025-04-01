@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 468464541618257435}
   - component: {fileID: 1353482548924649255}
   - component: {fileID: 1030317277483237038}
+  - component: {fileID: 5267629096824486883}
   - component: {fileID: 3783660237625049712}
   m_Layer: 0
   m_Name: Warrior1
@@ -270,6 +271,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c90d9a60b346104883c01ee505b0026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5267629096824486883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7878987346755597383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872cc5226dadb634195036932cd80688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  rolledNumberScript: {fileID: 0}
+  diceRollScript: {fileID: 0}
+  currentRoute: {fileID: 0}
+  steps: 0
 --- !u!95 &3783660237625049712
 Animator:
   serializedVersion: 5

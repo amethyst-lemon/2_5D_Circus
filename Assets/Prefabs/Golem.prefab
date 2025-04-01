@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4671260315542264108}
   - component: {fileID: 5215418346117673845}
-  - component: {fileID: 3376701599850563384}
   - component: {fileID: 2009823013078188191}
+  - component: {fileID: -4294276934380974545}
+  - component: {fileID: 3376701599850563384}
   m_Layer: 0
   m_Name: Golem
   m_TagString: Untagged
@@ -87,6 +88,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2009823013078188191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830442600847625303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c90d9a60b346104883c01ee505b0026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4294276934380974545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830442600847625303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872cc5226dadb634195036932cd80688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  rolledNumberScript: {fileID: 0}
+  diceRollScript: {fileID: 0}
+  currentRoute: {fileID: 0}
+  steps: 0
 --- !u!95 &3376701599850563384
 Animator:
   serializedVersion: 5
@@ -108,18 +138,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2009823013078188191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830442600847625303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c90d9a60b346104883c01ee505b0026, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2604016421060751689
 GameObject:
   m_ObjectHideFlags: 0

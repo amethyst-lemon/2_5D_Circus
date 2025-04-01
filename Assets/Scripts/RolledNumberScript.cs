@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class RolledNumberScript : MonoBehaviour
 {
@@ -26,8 +27,8 @@ public class RolledNumberScript : MonoBehaviour
             Debug.LogError("DiceRollScript not foundin a scene!");
     }
 
-    public Text GetDiceNum()
+    public int GetDiceNum()
     {
-        return rolledNmberText;
+        return Convert.ToInt32(rolledNmberText);
     }
 }

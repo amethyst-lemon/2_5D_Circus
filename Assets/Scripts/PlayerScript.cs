@@ -3,35 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 
 public class PlayerScript : MonoBehaviour
 {
+    //general player stuff
     public GameObject[] playerPrefabs;
     int characterIndex;
     public GameObject spawnPoint;
     int[] otherPlayers;
     int index;
     private const string txtFileName = "playerNames";
-    public GridSpawnScript gridSpawnScript;
-
-    public float moveDistance = 1.0f;
-    public RolledNumberScript rolledNumberScript;
-    Text diceNum;
+    public PlayerMoveS playerMoveS;
 
     void Start()
     {
-        if(gridSpawnScript == null)
-        {
-            gridSpawnScript = FindAnyObjectByType<GridSpawnScript>();
-        }
 
-        if(gridSpawnScript != null)
-        {
-            gridSpawnScript.GetGridArray();
-        } else
-        {
-            Debug.LogError("GridSpawnScript not found");
-        }
 
             characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         GameObject mainCharacter = Instantiate(playerPrefabs[characterIndex], spawnPoint.transform.position, Quaternion.identity);
@@ -64,21 +51,4 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    public void DiceRoll()
-    {
-        if (rolledNumberScript == null)
-        {
-            rolledNumberScript = FindAnyObjectByType<RolledNumberScript>();
-        }
-
-        if (rolledNumberScript != null)
-        {
-            diceNum = rolledNumberScript.GetDiceNum();
-            
-        }
-        else
-        {
-            Debug.LogError("RolledNumberScript not found");
-        }
-    }
 }

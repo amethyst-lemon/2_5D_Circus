@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 1963126226924145407}
   - component: {fileID: 2896162704427542082}
   - component: {fileID: 8183727563158440675}
+  - component: {fileID: 246288995685511935}
   - component: {fileID: 2689830925290131815}
   m_Layer: 0
   m_Name: EvilMan
@@ -270,6 +271,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c90d9a60b346104883c01ee505b0026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &246288995685511935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6291604146454215818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872cc5226dadb634195036932cd80688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  rolledNumberScript: {fileID: 0}
+  diceRollScript: {fileID: 0}
+  currentRoute: {fileID: 0}
+  steps: 0
 --- !u!95 &2689830925290131815
 Animator:
   serializedVersion: 5
