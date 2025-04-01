@@ -25,4 +25,9 @@ public class RolledNumberScript : MonoBehaviour
         else
             Debug.LogError("DiceRollScript not foundin a scene!");
     }
+
+    public Text GetDiceNum()
+    {
+        return rolledNmberText;
+    }
 }

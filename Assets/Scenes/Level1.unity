@@ -1067,6 +1067,8 @@ MonoBehaviour:
   - {fileID: 2827471932802027653, guid: f953c8470084d5c45b526424e26f863c, type: 3}
   spawnPoint: {fileID: 1205038814}
   gridSpawnScript: {fileID: 1275347289}
+  moveDistance: 1
+  rolledNumberScript: {fileID: 0}
 --- !u!114 &51644610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12887,7 +12889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1412531923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18038,7 +18040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2136733294
 MonoBehaviour:
   m_ObjectHideFlags: 0

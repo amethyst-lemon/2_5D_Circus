@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class PlayerScript : MonoBehaviour
     int index;
     private const string txtFileName = "playerNames";
     public GridSpawnScript gridSpawnScript;
+
+    public float moveDistance = 1.0f;
+    public RolledNumberScript rolledNumberScript;
+    Text diceNum;
 
     void Start()
     {
@@ -56,6 +61,24 @@ public class PlayerScript : MonoBehaviour
         {
             Debug.LogError("File not found: " + fileName);
             return new string[0];
+        }
+    }
+
+    public void DiceRoll()
+    {
+        if (rolledNumberScript == null)
+        {
+            rolledNumberScript = FindAnyObjectByType<RolledNumberScript>();
+        }
+
+        if (rolledNumberScript != null)
+        {
+            diceNum = rolledNumberScript.GetDiceNum();
+            
+        }
+        else
+        {
+            Debug.LogError("RolledNumberScript not found");
         }
     }
 }
