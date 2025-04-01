@@ -37,4 +37,11 @@ public class MusicPlayerScript : MonoBehaviour
         audioSource.volume = 1;
         musicVolumeSlider.value = 1;
     }
+
+    public void MusicMute()
+    {
+        PlayerPrefs.DeleteKey("MusicVolume");
+        audioSource.volume = 0;
+        musicVolumeSlider.value = 0;
+    }
 }

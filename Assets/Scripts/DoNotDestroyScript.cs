@@ -14,11 +14,11 @@ public class DoNotDestroyScript : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
 
-        GameObject[] effectsObj = GameObject.FindGameObjectsWithTag("SoundEffects");
-        if (effectsObj.Length > 1)
-        {
-            Destroy(this.gameObject);
-        }
-        DontDestroyOnLoad(this.gameObject);
+        //GameObject[] effectsObj = GameObject.FindGameObjectsWithTag("SoundEffects");
+       // if (effectsObj.Length > 1)
+       // {
+        //    Destroy(this.gameObject);
+       // }
+       // DontDestroyOnLoad(this.gameObject);
     }
 }

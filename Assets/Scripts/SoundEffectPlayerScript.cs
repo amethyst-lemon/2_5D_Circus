@@ -16,7 +16,7 @@ public class SoundEffectPlayerScript : MonoBehaviour
         audioSource = ObjectMusic.GetComponent<AudioSource>();
 
         musicVolumeSlider.value = musicVolume;
-        musicVolume = PlayerPrefs.GetFloat("effects");
+        musicVolume = PlayerPrefs.GetFloat("EffectsVolume");
         audioSource.volume = musicVolume;
         musicVolumeSlider.value = musicVolume;
     }
@@ -24,7 +24,7 @@ public class SoundEffectPlayerScript : MonoBehaviour
     void Update()
     {
         audioSource.volume = musicVolume;
-        PlayerPrefs.SetFloat("effects", musicVolume);
+        PlayerPrefs.SetFloat("EffectsVolume", musicVolume);
     }
 
     public void UpdateEffectsVolume(float volume)
@@ -34,8 +34,15 @@ public class SoundEffectPlayerScript : MonoBehaviour
 
     public void EffectsReset()
     {
-        PlayerPrefs.DeleteKey("effects");
+        PlayerPrefs.DeleteKey("EffectsVolume");
         audioSource.volume = 1;
         musicVolumeSlider.value = 1;
+    }
+
+    public void EffectMute()
+    {
+        PlayerPrefs.DeleteKey("EffectsVolume");
+        audioSource.volume = 0;
+        musicVolumeSlider.value = 0;
     }
 }
