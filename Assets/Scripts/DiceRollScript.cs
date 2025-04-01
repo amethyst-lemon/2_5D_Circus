@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class DiceRollScript : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class DiceRollScript : MonoBehaviour
     [SerializeField]private float maxRandForceVal, startRollingForce;
     float forceX, forceY, forceZ;
     public string diceFaceNum;
+    public string checkNum;
     public bool isLanded = false;
     public bool firstThrow = false;
 
@@ -17,7 +20,6 @@ public class DiceRollScript : MonoBehaviour
         Initialize(0);
     }
 
-    // Update is called once per frame
     public void Update()
     {
         if(rBody != null)
@@ -33,8 +35,9 @@ public class DiceRollScript : MonoBehaviour
                             firstThrow = true;
                         
                         RollDice();
-                            
+                        GetFaceNum();
                     }
+                GetFaceNum();
             }
         }
     }
@@ -63,6 +66,11 @@ public class DiceRollScript : MonoBehaviour
         forceZ = Random.Range(0, maxRandForceVal);
         rBody.AddForce(Vector3.up * Random.Range(800, startRollingForce));
         rBody.AddTorque(forceX, forceY, forceZ);
+        GetFaceNum();
     }
 
+    public int GetFaceNum()
+    {
+        return Convert.ToInt32(diceFaceNum);
+    }
 }
