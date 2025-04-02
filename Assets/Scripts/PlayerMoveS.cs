@@ -19,16 +19,19 @@ public class PlayerMoveS : MonoBehaviour
     bool isMoving;
     public int diceThrowCount;
 
+    public PlayerScript playerScript;//
+
     public void Awake()
     {
         rolledNumberScript = FindObjectOfType<RolledNumberScript>();
         currentRoute = FindAnyObjectByType<RouteScript>();
         diceRollScript = FindObjectOfType<DiceRollScript>();
+        playerScript = FindObjectOfType<PlayerScript>();
     }
 
     private void Update()
     {
-        Debug.Log("Update() - Dice Landed: " + diceRollScript.isLanded + " | Is Moving: " + isMoving + " | Steps: " + steps);
+        //Debug.Log("Update() - Dice Landed: " + diceRollScript.isLanded + " | Is Moving: " + isMoving + " | Steps: " + steps);
 
         if (diceRollScript.hasThrown && !diceRollScript.isLanded)
         {
@@ -38,7 +41,7 @@ public class PlayerMoveS : MonoBehaviour
         if (diceRollScript.hasThrown && diceRollScript.isLanded)
         {
             steps = rolledNumberScript.GetDiceNum();
-            Debug.Log("Dice rolled, steps: " + steps);
+            //Debug.Log("Dice rolled, steps: " + steps);
             diceRollScript.hasThrown = false;
         }
 
@@ -49,7 +52,6 @@ public class PlayerMoveS : MonoBehaviour
         
     }
 
-
     IEnumerator Move()
     {
         
@@ -59,28 +61,39 @@ public class PlayerMoveS : MonoBehaviour
         }
         isMoving = true;
         
-        //steps = diceRollScript.GetFaceNum();
-        //for(int i = steps; steps > 0; i--)
         while (steps > 0)
         {
-            //steps here make a loop because the same value is called constantly
             Vector3 nextPos = currentRoute.childNodeList[routePosition + 1].position;
             while (MoveToNextNode(nextPos)) { yield return null; }
 
             yield return new WaitForSeconds(0.1f);
             steps--;
             routePosition++;
-            Debug.Log("3rd "+steps);
 
-        }// if (steps == 0)
-        //{
-        //   diceThrowCount++;
-        //    yield break;
-        //}
+            FindObjectOfType<PlayerScript>().AddScore(this.gameObject, 10);
+
+            if (currentRoute.specialSpots.ContainsKey(routePosition))
+            {
+                string spotType = currentRoute.specialSpots[routePosition];
+                Debug.Log(gameObject.name + " checking spot at position: " + routePosition + " - Type: " + spotType);
+
+                if (spotType == "Good" && steps == 0)
+                {
+                    Debug.Log(gameObject.name + " landed on a GOOD spot! +50 points.");
+                    FindObjectOfType<PlayerScript>().AddScore(this.gameObject, 50);
+                }
+                else if (spotType == "Bad" && steps == 0)
+                {
+                    Debug.Log(gameObject.name + " landed on a BAD spot! -30 points.");
+                    FindObjectOfType<PlayerScript>().AddScore(this.gameObject, -30);
+                } 
+            }
+        }
 
             isMoving = false;
             diceRollScript.isLanded = false;
             steps = 0;
+            FindObjectOfType<PlayerScript>().EndTurn();
     }
 
     private bool MoveToNextNode(Vector3 goal)

@@ -36,18 +36,16 @@ public class DiceRollScript : MonoBehaviour
                             firstThrow = true;
                         
                         RollDice();
-                        //GetFaceNum();
                         hasThrown = true;
                         isLanded = false;
                     }
-                //GetFaceNum();
             }
         }
 
-        if (isLanded && hasThrown)
-        {
-            Debug.Log("Dice landed, waiting for next roll.");
-        }
+        //if (isLanded && hasThrown)
+        //{
+        //    Debug.Log("Dice landed, waiting for next roll.");
+        //}
     }
 
     public void Initialize(int node)
@@ -75,7 +73,6 @@ public class DiceRollScript : MonoBehaviour
         forceZ = Random.Range(0, maxRandForceVal);
         rBody.AddForce(Vector3.up * Random.Range(800, startRollingForce));
         rBody.AddTorque(forceX, forceY, forceZ);
-        //GetFaceNum();
     }
 
     public int GetFaceNum()

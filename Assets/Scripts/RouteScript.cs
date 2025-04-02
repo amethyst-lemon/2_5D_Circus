@@ -7,6 +7,7 @@ public class RouteScript : MonoBehaviour
 {
     Transform[] childObjects;
     public List<Transform> childNodeList = new List<Transform>();
+    public Dictionary<int, string> specialSpots = new Dictionary<int, string>();
 
     private void OnDrawGizmos()
     {
@@ -28,13 +29,29 @@ public class RouteScript : MonoBehaviour
     private void FillNodes()
     {
         childNodeList.Clear();
+        specialSpots.Clear();
+
         childObjects = GetComponentsInChildren<Transform>();
 
-        foreach(Transform child in childObjects)
+        int index = 0;
+        foreach (Transform child in childObjects)
         {
-            if(child != this.transform)
+            if (child != this.transform)
             {
                 childNodeList.Add(child);
+
+                if (child.CompareTag("GoodSpot"))
+                {
+                    specialSpots[index] = "Good";
+                    //Debug.Log("Good spot added at index: " + index);
+                }
+                else if (child.CompareTag("BadSpot"))
+                {
+                    specialSpots[index] = "Bad";
+                    //Debug.Log("Bad spot added at index: " + index);
+                }
+
+                index++;
             }
         }
     }

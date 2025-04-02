@@ -6,6 +6,8 @@ TagManager:
   tags:
   - GameMusic
   - SoundEffects
+  - GoodSpot
+  - BadSpot
   layers:
   - Default
   - TransparentFX
