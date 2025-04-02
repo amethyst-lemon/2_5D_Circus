@@ -30,12 +30,26 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 
 
 ## Game elements
-
+Main menu
+Options
+Leaderboard
+Game character selection
+Game board play field in 3D
 
 ## How to play
+### To start the game
+Select play from main menu and choose one of the player characters. Enter your player name and press on the play button. 
+
+### Playing on the game board
+When on the game board, wait for your turn and click on the dice. Your character will move automatically according to the dice roll. 
+
+### Gameplay elements
+There are Good and Bad spots on the game board. Each of them gives a different number of points. Good spots add points but the Bad spots remove them
 
 
 ## Future update ideas
 - Polish the game way more
 - Add an in-game option to change game player count and add names for each character
+- Add more game elements like item pick-ups, shortcuts and player interactions
+- Game board generation to make the game re-playable
 
