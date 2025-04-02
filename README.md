@@ -30,11 +30,11 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 
 
 ## Game elements
-Main menu
-Options
-Leaderboard
-Game character selection
-Game board play field in 3D
+- Main menu
+- Options
+- Leaderboard
+- Game character selection
+- Game board play field in 3D
 
 ## How to play
 ### To start the game
