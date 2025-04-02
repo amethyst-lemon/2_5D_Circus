@@ -29,6 +29,8 @@ public class RolledNumberScript : MonoBehaviour
 
     public int GetDiceNum()
     {
-        return Convert.ToInt32(rolledNmberText);
+        int num = Convert.ToInt32(diceRollScript.diceFaceNum);
+        //Debug.Log("GetDiceNum() returning: " + num);
+        return num;
     }
 }

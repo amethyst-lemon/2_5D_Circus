@@ -14,6 +14,7 @@ public class DiceRollScript : MonoBehaviour
     public string checkNum;
     public bool isLanded = false;
     public bool firstThrow = false;
+    public bool hasThrown = false;
 
     void Awake()
     {
@@ -35,10 +36,17 @@ public class DiceRollScript : MonoBehaviour
                             firstThrow = true;
                         
                         RollDice();
-                        GetFaceNum();
+                        //GetFaceNum();
+                        hasThrown = true;
+                        isLanded = false;
                     }
-                GetFaceNum();
+                //GetFaceNum();
             }
+        }
+
+        if (isLanded && hasThrown)
+        {
+            Debug.Log("Dice landed, waiting for next roll.");
         }
     }
 
@@ -54,6 +62,7 @@ public class DiceRollScript : MonoBehaviour
 
         firstThrow = false;
         isLanded = false;
+        hasThrown = false;
         rBody.isKinematic = true;
         transform.rotation = new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), 0);
     }
@@ -66,11 +75,19 @@ public class DiceRollScript : MonoBehaviour
         forceZ = Random.Range(0, maxRandForceVal);
         rBody.AddForce(Vector3.up * Random.Range(800, startRollingForce));
         rBody.AddTorque(forceX, forceY, forceZ);
-        GetFaceNum();
+        //GetFaceNum();
     }
 
     public int GetFaceNum()
     {
         return Convert.ToInt32(diceFaceNum);
+    }
+
+    public void ResetDiceAfterLanding()
+    {
+        if (isLanded)
+        {
+            hasThrown = false;
+        }
     }
 }

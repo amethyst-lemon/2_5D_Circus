@@ -28,32 +28,27 @@ public class PlayerMoveS : MonoBehaviour
 
     private void Update()
     {
-        if (diceRollScript.isLanded && !isMoving)
+        Debug.Log("Update() - Dice Landed: " + diceRollScript.isLanded + " | Is Moving: " + isMoving + " | Steps: " + steps);
+
+        if (diceRollScript.hasThrown && !diceRollScript.isLanded)
+        {
+            steps = 0;
+        }
+
+        if (diceRollScript.hasThrown && diceRollScript.isLanded)
         {
             steps = rolledNumberScript.GetDiceNum();
-            Debug.Log("1st " + steps);
+            Debug.Log("Dice rolled, steps: " + steps);
+            diceRollScript.hasThrown = false;
+        }
 
-            if (routePosition+steps < currentRoute.childNodeList.Count)
-            {
-                StartCoroutine(Move());
-            }
-
-        } else if (!isMoving && Input.GetMouseButton(0))
-            if(diceRollScript.isLanded)
-                {
-                steps = rolledNumberScript.GetDiceNum();
-                Debug.Log("2nd " + steps);
-
-                if (routePosition + steps < currentRoute.childNodeList.Count)
-                    {
-                        StartCoroutine(Move());
-                    }
-                } else
-                {
-                    Debug.Log("Dice lost");
-            }
+        if (diceRollScript.isLanded && !isMoving && steps > 0)
+        {
+            StartCoroutine(Move());
+        }
         
     }
+
 
     IEnumerator Move()
     {
@@ -64,7 +59,7 @@ public class PlayerMoveS : MonoBehaviour
         }
         isMoving = true;
         
-        steps = diceRollScript.GetFaceNum();
+        //steps = diceRollScript.GetFaceNum();
         //for(int i = steps; steps > 0; i--)
         while (steps > 0)
         {
@@ -77,13 +72,15 @@ public class PlayerMoveS : MonoBehaviour
             routePosition++;
             Debug.Log("3rd "+steps);
 
-        } if (steps == 0)
-        {
-           diceThrowCount++;
-            yield break;
-        }
+        }// if (steps == 0)
+        //{
+        //   diceThrowCount++;
+        //    yield break;
+        //}
 
             isMoving = false;
+            diceRollScript.isLanded = false;
+            steps = 0;
     }
 
     private bool MoveToNextNode(Vector3 goal)
