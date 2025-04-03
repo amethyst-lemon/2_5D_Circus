@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +9,7 @@ public class SoundEffectPlayerScript : MonoBehaviour
     private float musicVolume = 1f;
     public Slider musicVolumeSlider;
     public GameObject ObjectMusic;
-    void Start()
+    void Awake()
     {
         ObjectMusic = GameObject.FindWithTag("SoundEffects");
         audioSource = ObjectMusic.GetComponent<AudioSource>();
@@ -19,6 +18,7 @@ public class SoundEffectPlayerScript : MonoBehaviour
         musicVolume = PlayerPrefs.GetFloat("EffectsVolume");
         audioSource.volume = musicVolume;
         musicVolumeSlider.value = musicVolume;
+        EffectsReset();
     }
 
     void Update()

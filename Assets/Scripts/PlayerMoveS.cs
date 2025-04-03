@@ -84,16 +84,16 @@ public class PlayerMoveS : MonoBehaviour
                 if (currentRoute.specialSpots.ContainsKey(i))
                 {
                     string spotType = currentRoute.specialSpots[i];
-                    Debug.Log(gameObject.name + " checking spot at position: " + i + " - Type: " + spotType);
+                    //Debug.Log(gameObject.name + " checking spot at position: " + i + " - Type: " + spotType);
 
                     if (spotType == "Good" && steps == 0)
                     {
-                        Debug.Log(gameObject.name + " landed on a GOOD spot! +50 points.");
+                        //Debug.Log(gameObject.name + " landed on a GOOD spot! +50 points.");
                         FindObjectOfType<PlayerScript>().AddScore(this.gameObject, 50);
                     }
                     else if (spotType == "Bad" && steps == 0)
                     {
-                        Debug.Log(gameObject.name + " landed on a BAD spot! -30 points.");
+                        //Debug.Log(gameObject.name + " landed on a BAD spot! -30 points.");
                         FindObjectOfType<PlayerScript>().AddScore(this.gameObject, -30);
                     }
                 }
