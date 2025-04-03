@@ -27,6 +27,13 @@ public class PlayerMoveS : MonoBehaviour
         currentRoute = FindAnyObjectByType<RouteScript>();
         diceRollScript = FindObjectOfType<DiceRollScript>();
         playerScript = FindObjectOfType<PlayerScript>();
+
+        StartCoroutine(EnsureRouteReady());
+    }
+
+    void Start()
+    {
+        StartCoroutine(EnsureRouteReady());
     }
 
     private void Update()
@@ -72,21 +79,24 @@ public class PlayerMoveS : MonoBehaviour
 
             FindObjectOfType<PlayerScript>().AddScore(this.gameObject, 10);
 
-            if (currentRoute.specialSpots.ContainsKey(routePosition))
+            for (int i = routePosition; i <= routePosition + steps && i < currentRoute.childNodeList.Count; i++)
             {
-                string spotType = currentRoute.specialSpots[routePosition];
-                Debug.Log(gameObject.name + " checking spot at position: " + routePosition + " - Type: " + spotType);
+                if (currentRoute.specialSpots.ContainsKey(i))
+                {
+                    string spotType = currentRoute.specialSpots[i];
+                    Debug.Log(gameObject.name + " checking spot at position: " + i + " - Type: " + spotType);
 
-                if (spotType == "Good" && steps == 0)
-                {
-                    Debug.Log(gameObject.name + " landed on a GOOD spot! +50 points.");
-                    FindObjectOfType<PlayerScript>().AddScore(this.gameObject, 50);
+                    if (spotType == "Good" && steps == 0)
+                    {
+                        Debug.Log(gameObject.name + " landed on a GOOD spot! +50 points.");
+                        FindObjectOfType<PlayerScript>().AddScore(this.gameObject, 50);
+                    }
+                    else if (spotType == "Bad" && steps == 0)
+                    {
+                        Debug.Log(gameObject.name + " landed on a BAD spot! -30 points.");
+                        FindObjectOfType<PlayerScript>().AddScore(this.gameObject, -30);
+                    }
                 }
-                else if (spotType == "Bad" && steps == 0)
-                {
-                    Debug.Log(gameObject.name + " landed on a BAD spot! -30 points.");
-                    FindObjectOfType<PlayerScript>().AddScore(this.gameObject, -30);
-                } 
             }
         }
 
@@ -94,6 +104,16 @@ public class PlayerMoveS : MonoBehaviour
             diceRollScript.isLanded = false;
             steps = 0;
             FindObjectOfType<PlayerScript>().EndTurn();
+    }
+
+    IEnumerator EnsureRouteReady()
+    {
+        while (currentRoute == null || currentRoute.specialSpots.Count == 0)
+        {
+            Debug.Log("Waiting for RouteScript to initialize...");
+            yield return null;
+        }
+        Debug.Log("RouteScript initialized! Ready to check special spots.");
     }
 
     private bool MoveToNextNode(Vector3 goal)

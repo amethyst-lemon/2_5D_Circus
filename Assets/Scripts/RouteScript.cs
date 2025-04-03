@@ -9,6 +9,17 @@ public class RouteScript : MonoBehaviour
     public List<Transform> childNodeList = new List<Transform>();
     public Dictionary<int, string> specialSpots = new Dictionary<int, string>();
 
+    void Awake()
+    {
+        Debug.Log("RouteScript is running!");
+    }
+
+    void Start()
+    {
+        Debug.Log("Forcing Special Spots Update!");
+        FillNodes();
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
@@ -54,5 +65,7 @@ public class RouteScript : MonoBehaviour
                 index++;
             }
         }
+
+        //Debug.Log("Total special spots: " + specialSpots.Count);
     }
 }

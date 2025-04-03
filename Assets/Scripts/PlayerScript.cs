@@ -83,11 +83,19 @@ public class PlayerScript : MonoBehaviour
 
     public void AddScore(GameObject player, int points)
     {
-        if (playerScores.ContainsKey(player))
+        if (!playerScores.ContainsKey(player))
         {
-            playerScores[player] += points;
-            UpdateScoreDisplay();
+            Debug.LogError("Player not found in score list: " + player.name);
+            return;
         }
+
+        int oldScore = playerScores[player];
+        playerScores[player] += points;
+        int newScore = playerScores[player];
+
+        Debug.Log(player.name + " Score updated: " + oldScore + " -> " + newScore + " (+" + points + ")");
+
+        UpdateScoreDisplay();
     }
 
     void UpdateScoreDisplay()
