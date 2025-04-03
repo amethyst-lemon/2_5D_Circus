@@ -23,7 +23,7 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 - [X] Add idle animations to charaters
 - [X] Add idle animations to charaters (level 1 screen)
 - [X] Add walking animations to charaters
-- [ ] Game logic
+- [X] Game logic
 - and other things not listed
 
 ## Game description
@@ -31,30 +31,55 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 
 ## Game elements
 ### Game screens
-- Main menu
+**Main menu**
+
+Main game screen has a menu with the following options: Start, Leaderboard, Settings, Exit.
+
 <img src="https://i.imgur.com/3RCZZNd.png" width="800">
 
-- Settings
+**Settings**
+
+Settings has options to change or mute the music and sound effects value. This menu has a reset button to change the value settings back to their default values.
+
 <img src="https://i.imgur.com/7rJAiU8.png" width="800">
 
-- Leaderboard
+**Leaderboard**
+
+Leaderboard is used to display best player scores. Currently displayed as an empty game screen.
+
 <img src="https://i.imgur.com/sWjFmGO.png" width="800">
 
-- Game character selection
+**Game character selection**
+
+Game character selection screen includes 7 different character to choose from. It also has a player name input field.
+
 <img src="https://i.imgur.com/k5dHiEz.png" width="800">
   
-- Game board play field
+**Game board play field**
+
+Game play board is displayed in 3D with a static camera. Players move on it based on dice roll. The Dice is in it's own seperate area next to the board.
+
+
 <img src="https://i.imgur.com/fWx5X2o.png" width="800">
 
 
 ### Game board spots
-- Normal spot
+**Normal spot**
+
+Passing the normal spot, player is rewarded with 10 points.
+
 <img src="https://i.imgur.com/x0KacIA.png" width="200">
 
-- Good Spot
+**Good Spot**
+
+Landing on a Good spot, rewards the player with 50 points.
+
 <img src="https://i.imgur.com/FsgjiFk.png" width="200">
 
-- Bad spot
+**Bad spot**
+
+Landing on a Bad spot, punishes the player by removing 30 points. Players can have negative points.
+
 <img src="https://i.imgur.com/jWlRbSt.png" width="200">
 
 
