@@ -32,30 +32,30 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 ## Game elements
 ### Game screens
 - Main menu
-<img src="https://i.imgur.com/3RCZZNd.png" width="600">
+<img src="https://i.imgur.com/3RCZZNd.png" width="800">
 
 - Settings
-<img src="https://i.imgur.com/7rJAiU8.png" width="600">
+<img src="https://i.imgur.com/7rJAiU8.png" width="800">
 
 - Leaderboard
-<img src="https://i.imgur.com/sWjFmGO.png" width="600">
+<img src="https://i.imgur.com/sWjFmGO.png" width="800">
 
 - Game character selection
-<img src="https://i.imgur.com/k5dHiEz.png" width="600">
+<img src="https://i.imgur.com/k5dHiEz.png" width="800">
   
 - Game board play field
-<img src="https://i.imgur.com/fWx5X2o.png" width="600">
+<img src="https://i.imgur.com/fWx5X2o.png" width="800">
 
 
 ### Game board spots
 - Normal spot
-<img src="https://i.imgur.com/x0KacIA.png" width="300">
+<img src="https://i.imgur.com/x0KacIA.png" width="200">
 
 - Good Spot
-<img src="https://i.imgur.com/FsgjiFk.png" width="300">
+<img src="https://i.imgur.com/FsgjiFk.png" width="200">
 
 - Bad spot
-<img src="https://i.imgur.com/jWlRbSt.png" width="300">
+<img src="https://i.imgur.com/jWlRbSt.png" width="200">
 
 
 ## How to play
