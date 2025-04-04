@@ -26,8 +26,8 @@ Unity 2.5d Circus project, demonstrates how to use UI elements and animate them.
 - [X] Game logic
 - and other things not listed
 
-## Game description
-
+## Game demo video
+https://drive.google.com/file/d/1_nb1179j9EuONFDCxkO8f2RfdqekX8fl/view?usp=sharing 
 
 ## Game elements
 ### Game screens
